@@ -1,85 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>João Paulo da Silva</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>João Paulo da Silva</title>
 
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/glide.core.css">
-    <link rel="stylesheet" href="./src/css/glide.theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700;9..144,900&display=swap" rel="stylesheet">
-    
-</head>
-<body>
-    <div class="wrapper">
-        <div class="card">
-            <div class="card__profile">
-                <img src="./src/img/profile/profile.jfif" alt="" class="card__photo">
-                <div class="card__info">
-                    <h1 class="card__name">João Silva</h1>
-                    <h2 class="card__job">Desenvolvedor Front-End</h2>
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <link rel="stylesheet" href="./src/css/reset.css" />        
+        <link rel="stylesheet" href="./src/css/glide.core.css" />
+        <link rel="stylesheet" href="./src/css/glide.theme.css" />
+        
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card__profile">
+                    <img
+                        src="./src/img/profile/profile.jfif"
+                        alt=""
+                        class="card__photo"
+                    />
+                    <div class="card__info">
+                        <p class="card__name">João Silva</p>
+                        <p class="card__job">Desenvolvedor Front-End</p>
+                    </div>
+                    <div class="card__social">
+                        <a href="https://www.linkedin.com/in/jotasilvadev/" class="card__linkedin" target="_blank"
+                            ><img src="./src/img/social/linkedin_101776.svg" alt="linkedin"></a>
+                        <a href="https://github.com/jotasilvadev" class="card__github" target="_blank"
+                            ><img src="./src/img/social/github_101792.svg" alt="github"></a>
+                        <a href="https://discord.com/users/Jotasilva#8909" class="card__discord" target="_blank"
+                            ><img src="./src/img/social/discord_101785.svg" alt="discord"></a>
+                    </div>
                 </div>
-                <div class="card__social">
-                    <a href="#" class="card__linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" class="card__github" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-                    <a href="#" class="card__discord" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <div class="card__skills">
+                    <div class="card__react">
+                        <img
+                            src="./src/img/skills/react_original_wordmark_logo_icon_146375.svg"
+                            alt="react logo"
+                        />
+                    </div>
+                    <div class="card__node">
+                        <img
+                            src="./src/img/skills/nodejs_original_logo_icon_146411.svg"
+                            alt="nodejs logo"
+                        />
+                    </div>
+                    <div class="card__redux">
+                        <img
+                            src="./src/img/skills/redux_original_logo_icon_146365.svg"
+                            alt="redux logo"
+                        />
+                    </div>
+                    <div class="card__jest">
+                        <img
+                            src="./src/img/skills/file_type_jest_icon_130514.svg"
+                            alt="jest logo"
+                        />
+                    </div>
+                    <div class="card__git">
+                        <img
+                            src="./src/img/skills/file_type_git_icon_130581.svg"
+                            alt="git logo"
+                        />
+                    </div>
+                    <div class="card__scrum">
+                        <img
+                            src="./src/img/skills/badge-SFC.png"
+                            alt="scrum certified"
+                        />
+                    </div>
                 </div>
             </div>
-            <div class="card__skills">
-                    <div class="card__react"><img src="./src/img/skills/react_original_wordmark_logo_icon_146375.svg" alt="react logo"></div>
-                    <div class="card__node"><img src="./src/img/skills/nodejs_original_logo_icon_146411.svg" alt="nodejs logo"></div>
-                    <div class="card__redux"><img src="./src/img/skills/redux_original_logo_icon_146365.svg" alt="redux logo"></div>
-                    <div class="card__jest"><img src="./src/img/skills/file_type_jest_icon_130514.svg" alt="jest logo"></div>
-                    <div class="card__git"><img src="./src/img/skills/file_type_git_icon_130581.svg" alt="git logo"></div>
-                    <div class="card__scrum"><img src="./src/img/skills/badge-SFC.png" alt="scrum certified"></div>
-            </div>
-        </div>
-        <div class="glide">
-            <div class="glide__track" data-glide-el="track">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
                         <li class="glide__slide">
-                            <a href="">                                
+                            <a href="">
                                 <div class="glide__text">
                                     <h2>Projeto Linkfire</h2>
-                                    <p>Releitura da paltaforma linkfire utilizando o album da banda Tropical Nada</p>
+                                    <p>
+                                        Releitura da plataforma linkfire
+                                        utilizando o album da banda Tropical
+                                        Nada
+                                    </p>
                                 </div>
-                                <img class="glide__img" src="./src/img/projects/linkfire.png" alt="projeto linkfire">
+                                <img
+                                    class="glide__img"
+                                    src="./src/img/projects/linkfire.png"
+                                    alt="projeto linkfire"
+                                />
                             </a>
                         </li>
                         <li class="glide__slide">
-                            <a href="">                                
+                            <a href="">
                                 <div class="glide__text">
                                     <h2>Projeto Formulário</h2>
-                                    <p>Projeto realizado durante o curso DevQuest como desafio do módulo Javascript</p>
+                                    <p>
+                                        Projeto realizado durante o curso
+                                        DevQuest como desafio do módulo
+                                        Javascript
+                                    </p>
                                 </div>
-                                <img class="glide__img" src="./src/img/projects/form.png" alt="projeto formulário">
+                                <img
+                                    class="glide__img"
+                                    src="./src/img/projects/form.png"
+                                    alt="projeto formulário"
+                                />
                             </a>
                         </li>
                         <li class="glide__slide">
-                            <a href="">                            
+                            <a href="">
                                 <div class="glide__text">
-                                <h2>Projeto Cat-Carrousel</h2>
-                                <p>Carrossel de fotos dos meus gatos utilizando o Glidejs</p>
+                                    <h2>Projeto Cat-Carrousel</h2>
+                                    <p>
+                                        Carrossel de fotos dos meus gatos
+                                        utilizando o Glidejs
+                                    </p>
                                 </div>
-                                <img class="glide__img" src="./src/img/projects/glide.png" alt="projeto cat carrousel">
+                                <img
+                                    class="glide__img"
+                                    src="./src/img/projects/glide.png"
+                                    alt="projeto cat carrousel"
+                                />
                             </a>
-                        </li>            
+                        </li>
                     </ul>
                 </div>
                 <div class="glide__bullets" data-glide-el="controls[nav]">
                     <button class="glide__bullet" data-glide-dir="=0"></button>
                     <button class="glide__bullet" data-glide-dir="=1"></button>
-                    <button class="glide__bullet" data-glide-dir="=2"></button>        
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
                 </div>
+            </div>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="/src/script/index.js"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <script src="/src/script/index.js"></script>
+    </body>
 </html>
