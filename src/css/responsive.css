@@ -1,0 +1,98 @@
+@media (max-width: 1400px){
+    .wrapper{
+        gap: 20px;
+        flex-direction: column;
+        max-height: none;
+        min-width: 770px;
+        align-items: center;
+    }
+}
+@media (max-width: 960px){    
+    .card__skills {
+        gap: 10px;
+    }
+    .card{
+        flex-direction: row;
+        gap: none;
+        justify-content: space-around;
+    }
+    .card__profile{
+        min-width: 445px;
+        height: 420px;
+    }
+    .card__skills{
+        height: 420px;
+        min-width: 100px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card__skills img{
+        width: 50px;
+        height: 50px;
+    }
+    .glide{
+        max-width: 700px;
+        height: 560px;
+    }
+    .glide__slide img{
+        width: 700px;
+        height: 437px;    
+    }
+}
+@media (max-width: 780px){
+    .card__photo{
+        width: 120px;
+        height: 120px;
+    }
+    .wrapper{
+        min-width: 375px;
+        justify-content: center;
+        gap: none;
+        padding: 0;
+    }
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        height: 400px;
+    }
+    .card__profile{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .card__social{
+        justify-content: center;
+        gap: 10px;
+    }
+    .card__skills{
+        justify-content: space-between;
+        flex-direction: row;
+        max-height: 70px;
+        max-width: 100%;
+        gap: none;
+    }
+    .card__name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;    
+}
+.card__job{
+    font-size: 15px;
+    font-weight: 300;
+}
+.glide{
+        max-width: 370px;
+        height: 300px;
+    }
+    .glide__slide img{
+        width: 370px;
+        height: 230px;    
+    }
+} 
+
+@media (max-width: 410px){
+    .card__skills img{
+        width: 40px;
+        height: 40px;
+    }
+}

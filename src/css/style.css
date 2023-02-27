@@ -1,11 +1,13 @@
+body {
+    background-color: #fcfcfc;
+}
 .wrapper {
     max-height: 100vh;
     min-width: 1440px;
     display: flex;
     justify-content: center;
-    gap: 100px;    
+    gap: 100px;
     padding: 40px;
-    background-color: #fcfcfc;
 }
 
 .card {
@@ -27,36 +29,47 @@
     background-color: #f7f7fc;
     border-radius: 15px;
 }
-.card__photo{
+.card__photo {
     width: 200px;
     height: 200px;
     contain: content;
     border-radius: 50%;
-    border: 4px solid #F3f3f3;
+    border: 4px solid #f3f3f3;
+    opacity: 1;
+    transition: opacity 1.5s cubic-bezier(0.85, 0, 0.15, 1);
 }
-.card__info{
-    font-family: 'Raleway', sans-serif;
+.card__photo:hover{
+    opacity: 0.5;
 }
-.card__name{
+.card__info {
+    font-family: "Raleway", sans-serif;
+}
+.card__name {
     text-align: center;
     font-size: 35px;
-    font-weight: 400;    
+    font-weight: 400;
 }
-.card__job{
+.card__job {
     font-size: 20px;
     font-weight: 300;
 }
-.card__social{
+.card__social {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
 }
+.card__social:hover img {
+    outline: 10px solid #ffffff;
+}
 
-.card__social img{
+.card__social img {
     width: 45px;
     height: 45px;
+    outline: 5px solid #f7f7fc;
+    transition: outline 1s cubic-bezier(0.32, 0, 0.67, 0) 0s;
+    border-radius: 50%;
 }
-.card__skills{
+.card__skills {
     max-width: 445px;
     height: 250px;
     contain: content;
@@ -69,21 +82,21 @@
     padding: 15px;
     border-radius: 15px;
 }
-.card__skills img{
+.card__skills img {
     width: 80px;
     height: 80px;
 }
-.glide{
+.glide {
     max-width: 800px;
     height: 560px;
-    contain: content;    
-    border-radius: 15px;    
+    contain: content;
+    border-radius: 15px;
 }
-.glide__slide{
-    max-width: 800px;    
+.glide__slide {
+    max-width: 800px;
 }
-.glide__text{
-    font-family: 'Raleway', sans-serif;
+.glide__text {
+    font-family: "Raleway", sans-serif;
     background-color: #f7f7fc;
     min-height: 70px;
     display: flex;
@@ -92,15 +105,15 @@
     padding: 15px;
     color: #000000;
 }
-.glide__text h2{
+.glide__text h2 {
     font-size: 22px;
     font-weight: 400;
 }
-.glide__text p{
+.glide__text p {
     font-size: 16px;
     font-weight: 300;
 }
 
-.glide__img{
+.glide__img {
     max-width: 800px;
 }
