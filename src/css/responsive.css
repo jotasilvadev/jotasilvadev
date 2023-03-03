@@ -36,13 +36,13 @@
         min-width: 375px;
         justify-content: center;
         gap: none;
-        padding: 0;
+        padding: 15px;
     }
     .card{
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        height: 400px;
+        height: 380px;
     }
     .card__profile{
         min-width: 100%;
