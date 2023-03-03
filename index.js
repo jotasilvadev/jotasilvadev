@@ -2,7 +2,7 @@ const glideCarousel = document.querySelector(".glide");
 
 const config = {
     type: "carousel",
-    autoplay: 5000,
+    autoplay: 3000,
     keyboard: true,
     perView: 1,
     gap: 0   

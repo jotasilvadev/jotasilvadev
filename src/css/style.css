@@ -142,3 +142,20 @@ body {
 .glide__img {
     max-width: 800px;
 }
+
+
+@keyframes has-shown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.has-shown{
+    animation: has-shown 2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
