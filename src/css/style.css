@@ -1,5 +1,11 @@
 body {
-    background-color: #fcfcfc;
+    background: rgb(108, 92, 92);
+    background: linear-gradient(
+        0deg,
+        rgba(108, 92, 92, 1) 0%,
+        rgba(20, 19, 18, 1) 100%
+    );
+    height: 100vh;
 }
 .wrapper {
     max-height: 100vh;
@@ -20,14 +26,21 @@ body {
 }
 
 .card__profile {
-    height: 500px;
+    max-height: 75vh;
     max-width: 445px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #f7f7fc;
+    background: rgb(235, 129, 106);
+    background: linear-gradient(
+        0deg,
+        rgba(235, 129, 106, 1) 0%,
+        rgba(230, 168, 124, 1) 100%
+    );
     border-radius: 15px;
+    gap: 20px;
+    padding: 20px;
 }
 .card__photo {
     width: 200px;
@@ -38,7 +51,7 @@ body {
     opacity: 1;
     transition: opacity 1.5s cubic-bezier(0.85, 0, 0.15, 1);
 }
-.card__photo:hover{
+.card__photo:hover {
     opacity: 0.5;
 }
 .card__info {
@@ -55,7 +68,8 @@ body {
 }
 .card__social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 25px;
     min-width: 300px;
 }
 .card__social:hover img {
@@ -65,26 +79,24 @@ body {
 .card__social img {
     width: 45px;
     height: 45px;
-    outline: 5px solid #f7f7fc;
     transition: outline 1s cubic-bezier(0.32, 0, 0.67, 0) 0s;
     border-radius: 50%;
 }
 .card__skills {
-    max-width: 445px;
-    height: 250px;
+    width: 100%;
     contain: content;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
     justify-content: space-between;
-    background-color: #f7f7fc;
-    padding: 15px;
     border-radius: 15px;
+    background-color: #f7f7fc;
+    padding: 10px;
 }
 .card__skills img {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
 }
 .glide {
     max-width: 800px;
@@ -97,17 +109,22 @@ body {
 }
 .glide__text {
     font-family: "Raleway", sans-serif;
-    background-color: #f7f7fc;
+    background: rgb(235, 129, 106);
+    background: linear-gradient(
+        0deg,
+        rgba(235, 129, 106, 1) 0%,
+        rgba(230, 168, 124, 1) 100%
+    );
     min-height: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 15px;
-    color: #000000;
+    color: #f7f7fc;
 }
 .glide__text h2 {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .glide__text p {
     font-size: 16px;
