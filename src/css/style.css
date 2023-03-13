@@ -79,14 +79,13 @@ body {
     min-width: 300px;
 }
 .card__social img:hover {
-    outline: 2px solid #ffffff;
     box-shadow: rgb(0 0 0 / 70%) 0px 0px 10px 5px;
 }
 
 .card__social img {
     width: 45px;
     height: 45px;
-    transition: outline 1s cubic-bezier(0.32, 0, 0.67, 0) 0s;
+    transition: all 1s cubic-bezier(0.32, 0, 0.67, 0) 0s;
     border-radius: 50%;    
 }
 .card__skills {
